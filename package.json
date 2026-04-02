@@ -1,0 +1,12 @@
+{
+  "name": "maya-site-clone",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape-site.mjs"
+  },
+  "devDependencies": {
+    "website-scraper": "^6.0.0",
+    "website-scraper-existing-directory": "^2.0.0"
+  }
+}
